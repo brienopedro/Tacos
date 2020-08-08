@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="tacoshome.html">Tierra Mia Taqueria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+            aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="tacoshome.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <h2 class="text-center">Tacos are our thing!</h2> <br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.thecuriouschickpea.com/wp-content/uploads/2018/05/carneasadatacos-2-720x540.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asada</h5>
+              <p class="card-text">Mexico's original supreme skirt steak taco served with guacamole.</p>
+            </div>
+          </div>    
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.goya.com/media/3193/carnitas.jpg?quality=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carnitas</h5>
+              <p class="card-text">From Michuacan, the classic simmering pork taco.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190130-tacos-al-pastor-horizontal-1-1549571422.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Al Pastor</h5>
+              <p class="card-text">From the heart of Mexico, Mexico City's spice rubbed pork taco. Served optionally with grilled pineapple.</p>
+            </div>
+          </div>          
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2019/06/tacos-canasta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Canasta</h5>
+              <p class="card-text">The mexican dumpling, filled with potato and chorizo, refried beans, or pork skins a.k.a chicharron.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.pinimg.com/736x/2f/c2/43/2fc243393c9410eee6338e4e126fbc48.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Barbacoa</h5>
+              <p class="card-text">Literally from the depths of Mexico's lands, Hidalgo's melt-in-your-mouth lamb taco.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.redd.it/9tzx4r28aax21.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Azteca</h5>
+              <p class="card-text">The ancient taco of the Aztecs, slow grilled cactus and asada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+    <div>
+      <h3 style="margin-left: 25px;">Ready to order?</h3>
+      <div class="form-row" style="padding: 25px;">
+        <form>
+          <div class="form-control">
+            <label for="selection">Taco:</label>
+            <input type="radio" name="taco" value="Asada"> Asada 
+            <input type="radio" name="taco" value="Carnitas"> Carnitas 
+            <input type="radio" name="taco" value="Al Pastor"> Al Pastor 
+            <input type="radio" name="taco" value="Canasta"> Canasta 
+            <input type="radio" name="taco" value="Barbacoa"> Barbacoa 
+            <input type="radio" name="taco" value="Azteca"> Azteca 
+          </div>
+          <div class="form-control">
+            <label for="inputHowMany">How Many?</label>
+            <input type="number" name="amount">
+          </div>
+          <div class="form-control">
+            <label for="inputName">Name</label>
+            <input type="text" name="name">
+          </div>
+          <br>
+          <input type="submit" value="Submit">
+      </form>
+      </div>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
